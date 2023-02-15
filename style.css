@@ -1,50 +1,62 @@
-element.style {
-}
 body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
-    color: #d9ff00;
-}
-body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
-}
-body {
-    margin: 0;
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-user agent stylesheet
-body {
-    display: block;
-    margin: 8px;
-}
-html {
-    font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-html {
-    font-family: sans-serif;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
-:after, :before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-:after, :before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    color: #001eff;
 }
 
-#neyapar{
-    color: black;
+p {
+    font-size: 16px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.bg-1 {
+    background-color: #00ffc8;
+    /* Green */
+    color: #333333;
+    /* black */
+}
+
+.bg-2 {
+    background-color: #5010f0;
+    /* Dark Blue */
+    color:#333333;
+}
+
+.bg-3 {
+    background-color: #f50909;
+    /* White           color: #e5ff00;
+}
+
+.bg-4 {
+    background-color: #00d9ff;
+    /* Blue Diamond */
+    color: rgb(0, 0, 0);
+}
+
+.bg-5 {
+    background-color: #c9ada7;
+    /* Gray */
+    color: rgb(255, 238, 0);
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: hsla(227, 100%, 50%, 0.979) !important;
 }
